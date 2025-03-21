@@ -190,8 +190,8 @@
         utterance.voice = voices.find(voice => voice.lang.startsWith("en")) || voices[0];
 
         // ✅ Voice properties
-        utterance.rate = 1.0;      // Speed
-        utterance.pitch = 1.0;     // Pitch
+        utterance.rate = 0.8;      // Speed
+        utterance.pitch = 0.8;     // Pitch
         utterance.volume = 1.0;    // Volume
 
         synth.speak(utterance);
